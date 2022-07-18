@@ -1,2 +1,2 @@
 # Nwaogwugwu-Oluoma
-Is a repository own by Oluoma
+Is a repository created by Oluoma
