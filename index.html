@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1> RESTful services give the flexibility to <br> create application involving the following operations(also known as CRUD).</h1>
+    <ul>
+        <li>Create</li>
+        <li>Read/Retrieve</li>
+        <li>Update</li>
+        <li>Delete</li>
+    </ul>
+  
+   <p> While performing these operations in RESTful services, there are guidelines or <br> principles on using HTTP methods for a certain type of operation.</p>
+   <p> Below is the list of method that is been used in creating a RESTful API:</p>
+   <ul>
+       <li> GET</li>
+       <li>POST</li>
+       <li>PUT</li>
+       <li>DELETE</li>
+       <li>PATCH</li>
+   </ul>
+     
+    
+    
+    <p><h4> GET METHOD:</h4> Http get method is used to retrieve information from the REST API. GET is idempotent, meaning that regardless of how many times it repeats with the same parameters the results are the same.</p>
+    
+    <p><h4>POST METHOD:</h4> In the REST API is only used to create a new resource. In some cases post method is used to update entity but this operation is not very frequent. POST API is not idempotent nor safe and should be used with care.</p>
+    
+    <p> PUT METHOD: Put method is used to update an existing resource. Put method has some features as compare to the post method e.g (i) Put method is idempotent; this means the client can send the same request multiple times and as per HTTP spec, this has exactly the same effects as sending once.
+    (ii) Put method is just like a putting in resource; This means completely replacing whatever is available at the given URL with the given data.</p>
+    
+    <p> DELETE METHOD: This method is used to remove a given resource. Similar to PUT method, DELETE operation is idempotent.</p>
+    
+    e) PATCH METHOD: Partial update to a resource happens through PATCH METHOD.The main difference between PUT and PATCH in REST API is that PUT handles updates by replacing the entire entity, while PATCH only updates the fields that you give it. PATCH does not change any of the other values. If you use the PUT method, then everything will get updated
+</body>
+</html>
